@@ -51,25 +51,25 @@ hr {
 }
 
 button {
-    width: 60px;             /* fixed width */
-    height: 60px;            /* fixed height to make circular */
-    padding: 0;              /* remove extra padding */
+    width: 60px; 
+    height: 60px;
+    padding: 0; 
     border: none;
-    border-radius: 50%;      /* circular shape */
+    border-radius: 50%;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.076); /* optional subtle background */
+    background: rgba(255, 255, 255, 0.076);
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.15s ease; /* for a hover scale effect */
+    transition: transform 0.15s ease;
 }
 
 button:hover {
-    transform: scale(1.1);   /* gentle zoom on hover */
+    transform: scale(1.1);
 }
 
 button img {
-    width: 30px;   /* smaller than button for padding around */
+    width: 30px;
     height: 30px;
-    object-fit: contain; /* ensures image maintains aspect ratio */
+    object-fit: contain;
 }

@@ -10,22 +10,24 @@
 
 <body>
 
-<div id="logContainer">
-    <div id="logContent"></div>
-</div>
-<hr>
-<div id="timer">00:00:00</div>
+    <div id="timer">00:00:00</div>
+    
+    <div class="controls">
+        <button id="playPauseBtn">
+            <img id="playPauseIcon" src="assets/play.png" alt="Play/Pause">
+        </button>
+        <button id="restartBtn">
+            <img src="assets/restart.png" alt="Restart">
+        </button>
+    </div>
+    
+    <hr>
+    
+    <div id="logContainer">
+        <div id="logContent"></div>
+    </div>
 
-<div class="controls">
-    <button id="playPauseBtn">
-        <img id="playPauseIcon" src="assets/play.png" alt="Play/Pause">
-    </button>
-    <button id="restartBtn">
-        <img src="assets/restart.png" alt="Restart">
-    </button>
-</div>
-
-<script src="scripts.js"></script>
+    <script src="scripts.js"></script>
 
 </body>
 </html>
